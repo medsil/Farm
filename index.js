@@ -10,6 +10,10 @@ class Farm {
     this.crops.push(crop)
   }
 
+  addAnimal(animal) {
+    this.animals.push(animal)
+  }
+
   calculateIncome() {
     return this.crops
     .map(crop => crop.getYieldInEuros())

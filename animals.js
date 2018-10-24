@@ -11,7 +11,7 @@ class Animal {
 class Cow extends Animal {
     constructor(age) {
         super(age)
-        this.age = 0
+        //this.age = 0
         this.price = 5
     }
     getWeightInKg() {
@@ -22,7 +22,7 @@ class Cow extends Animal {
 class Horse extends Animal {
     constructor(age) {
         super(age)
-        this.age = 0
+        //this.age = 0
         this.price = 10
     }
     getWeightInKg() {
@@ -33,7 +33,7 @@ class Horse extends Animal {
 class Pig extends Animal {
     constructor(age) {
         super(age)
-        this.age = 0
+        //this.age = 0
         this.price = 4
     }
     getWeightInKg() {
