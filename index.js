@@ -11,7 +11,9 @@ class Farm {
   }
 
   calculateIncome() {
-    return this.crops.map(crop => crop.getYieldInEuros())
+    return this.crops
+    .map(crop => crop.getYieldInEuros())
+    .reduce((a,b) => a + b, 0)
   }
 
 }
