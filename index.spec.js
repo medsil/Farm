@@ -12,7 +12,8 @@ test('A Farm can have a name', () => {
 })
 
 //******
-test('We can add a crop to our farm', () => {
-  const farm = new Farm('TEST_NAME')
-  farm.addCrop(new Wheat(100))
-})
+// test('We can add a crop to our farm', () => {
+//   const farm = new Farm('TEST_NAME')
+//   farm.addCrop(new Wheat(100))
+// })
+

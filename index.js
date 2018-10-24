@@ -9,11 +9,12 @@ class Farm {
   addCrop(crop) {
     this.crops.push(crop)
   }
+
+  calculateIncome() {
+    return this.crops.map(crop => crop.getYieldInEuros())
+  }
+
 }
-
-
-
-
 
 
 module.exports.Farm = Farm
