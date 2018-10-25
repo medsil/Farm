@@ -1,5 +1,4 @@
 // animals.spec.js
-
 const {Pig, Horse, Cow} = require('./animals')
 
 test('Pig of 0 days calculates proper weight', () => {

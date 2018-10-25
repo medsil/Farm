@@ -30,8 +30,7 @@ class Sugarcane extends Crop {
         this.price = 2
         this.costs = 166
     }
-    // super(acres)
-    // price = 2
+
     getYieldInKg() {
         return Math.pow(this.acres * 2.6, 1.1)
     }

@@ -1,5 +1,5 @@
 // crops.spec.js
-const {Wheat} = require('./crops')
+const {Wheat, Sugarcane} = require('./crops')
 
 test('The Wheat class can calculate a yield', () => {
   const wheat = new Wheat(100)
@@ -11,10 +11,7 @@ test('The Wheat class calculates the proper yield', () => {
   expect(wheat.getYieldInKg()).toBeCloseTo(674.4, 2)
 })
 
-
 // tests for Sugarcane
-const {Sugarcane} = require('./crops')
-
 test('The Sugarcane class can calculate a yield', () => {
   const sugarcane = new Sugarcane(100)
   expect(sugarcane.getYieldInKg()).toBeDefined()
